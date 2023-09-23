@@ -42,3 +42,7 @@ input, button {
     cursor: pointer;
     padding: 10px;
 }
+
+.item-label {
+    font-weight: bold;
+}
