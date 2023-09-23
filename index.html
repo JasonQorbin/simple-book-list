@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book List</title>
+    <script src="books.js" defer></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Compulsory Task 1 -->
+    <h1>Book List</h1>
+
+    <form id="book-entry-form">
+        <fieldset>
+            <legend>Add a new book</legend>
+            <label for="field-title">Title:</label><input id="field-title" type="text">
+            <label for="field-author">Author:</label><input id="field-author" type="text">
+            <label for="field-genre">Genre:</label><input id="field-genre" type="text">
+            <label for="field-date">Publishing Date:</label><input id="field-date" type="text">
+            <label for="field-done">Finished reading:</label><input id="field-done" type="checkbox">
+            <button id="submit-button">Add</button>
+        </fieldset>
+    </form>
+
+    <div id="book-grid"></div>
+
+</body>
+</html>
